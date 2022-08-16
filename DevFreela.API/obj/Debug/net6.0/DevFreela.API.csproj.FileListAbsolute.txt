@@ -25,3 +25,5 @@ C:\Users\victorhda\Documents\DevFreela\DevFreela.API\obj\Debug\net6.0\refint\Dev
 C:\Users\victorhda\Documents\DevFreela\DevFreela.API\obj\Debug\net6.0\DevFreela.API.pdb
 C:\Users\victorhda\Documents\DevFreela\DevFreela.API\obj\Debug\net6.0\DevFreela.API.genruntimeconfig.cache
 C:\Users\victorhda\Documents\DevFreela\DevFreela.API\obj\Debug\net6.0\ref\DevFreela.API.dll
+C:\Users\victorhda\Documents\DevFreela\devfreela.api\bin\Debug\net6.0\DevFreela.Core.dll
+C:\Users\victorhda\Documents\DevFreela\devfreela.api\bin\Debug\net6.0\DevFreela.Core.pdb

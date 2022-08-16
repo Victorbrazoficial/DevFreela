@@ -72,6 +72,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "DevFreela.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DevFreela.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevFreela.Core.dll": {}
+        }
       }
     }
   },
@@ -200,10 +210,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "DevFreela.Core/1.0.0": {
+      "type": "project",
+      "path": "../DevFreela.Core/DevFreela.Core.csproj",
+      "msbuildProject": "../DevFreela.Core/DevFreela.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DevFreela.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -213,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victorhda\\Documents\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+      "projectUniqueName": "C:\\Users\\victorhda\\Documents\\DevFreela\\devfreela.api\\DevFreela.API.csproj",
       "projectName": "DevFreela.API",
-      "projectPath": "C:\\Users\\victorhda\\Documents\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
+      "projectPath": "C:\\Users\\victorhda\\Documents\\DevFreela\\devfreela.api\\DevFreela.API.csproj",
       "packagesPath": "C:\\Users\\victorhda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victorhda\\Documents\\DevFreela\\DevFreela.API\\obj\\",
+      "outputPath": "C:\\Users\\victorhda\\Documents\\DevFreela\\devfreela.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victorhda\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -231,7 +247,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\victorhda\\Documents\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj": {
+              "projectPath": "C:\\Users\\victorhda\\Documents\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
