@@ -20,9 +20,9 @@ namespace DevFreela.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post(CreatProjectModel creatProject)
+        public ActionResult Post([FromBody] CreatProjectModel creatProject)
         {
-            if (creatProject.Title.Length > 200)
+            if (creatProject.Title.Length > 50)
             {
                 return BadRequest();
             }
